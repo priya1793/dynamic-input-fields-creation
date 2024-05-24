@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  height: 100vh;
+  background-color: ghostwhite;
+}
+
+.form-header {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.dynamic-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.form-fields {
+  border: 1px solid #ccc;
+  padding: 2rem;
+  width: 25rem;
+}
+
+.form-fields input {
+  width: calc(100% - 1rem);
+  height: 3rem;
+  padding-left: 1rem;
+  font-size: 1.2em;
+  border: 1px solid #cccccc;
+  margin-bottom: 1.25rem;
+  border-radius: 0.25rem;
+  display: block;
+}
+
+.form-fields textarea {
+  width: calc(100% - 2rem);
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.2em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.form-actions {
+  margin-top: 2rem;
+}
+
+.submit-btn,
+.add-btn {
+  padding: 1rem 2rem;
+  font-size: 1.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  border-radius: 0.25rem;
+}
+
+.submit-btn {
+  background-color: skyblue;
+  border: 2px solid skyblue;
+}
+
+.add-btn {
+  margin-left: 1rem;
+  background-color: darkseagreen;
+  border: 2px solid darkseagreen;
+}
+
+.submit-btn:hover,
+.add-btn:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.remove-btn {
+  background-color: skyblue;
+  border: 1px solid skyblue;
+  color: white;
+  font-size: 1.25em;
+  width: calc(100% - 10rem);
+  cursor: pointer;
+  padding: 1rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: block;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: 4rem auto 2rem;
+  width: calc(100% - 16rem);
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
